@@ -3,7 +3,7 @@ require("dotenv").config();
 var inquirer = require('inquirer');
 // Twitter API - Used for displaying Charlie's tweets
 var Twitter = require('twitter');
-var keys = require("./keys.js");
+var keys = require("../keys.js");
 var client = new Twitter(keys.twitter);
 // Can be changed to different user or search term
 var twitterName = 'VivekPa85103889'

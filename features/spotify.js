@@ -2,7 +2,7 @@ require("dotenv").config();
 var fs = require("fs");
 // Inquirer - Used for accepting user input
 var inquirer = require('inquirer');
-var keys = require("./keys.js");
+var keys = require("../keys.js");
 // Spotify API - Used for displaying song information
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
